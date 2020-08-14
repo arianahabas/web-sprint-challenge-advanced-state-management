@@ -1,4 +1,4 @@
-import { SMURF_LOADING, SMURF_SUCCESS, SMURF_FAIL } from '../actions/smurfActions'
+import { SMURF_LOADING, SMURF_SUCCESS, SMURF_FAIL} from '../actions/smurfActions'
 
 const intialState = {
     smurfs: [],
@@ -25,6 +25,7 @@ export const smurfReducer = (state=intialState, action) => {
                 error: action.payload,
                 loading: false
             }
+      
         default:
             return state
     }

@@ -7,6 +7,7 @@ export const SMURF_FAIL = 'SMURF_FAIL'
 
 
 
+
 export const getSmurfs = () => (dispatch) => {
     //put in loading state
     dispatch({ type: SMURF_LOADING })
@@ -18,4 +19,15 @@ export const getSmurfs = () => (dispatch) => {
         })
         //if fails , put in error state
         .catch(err => dispatch({type: SMURF_FAIL, payload: err.message}))
+}
+
+export const addSmurf = (smurf) => (dispatch) => {
+    dispatch({type: SMURF_LOADING})
+    axios.post('http://localhost:3333/smurfs', smurf)
+        .then(res => {
+            console.log(res)
+            dispatch({ type: SMURF_SUCCESS, payload: res.data})
+        })
+        .catch(err => dispatch({type: SMURF_FAIL, payload: err.message}))
+
 }

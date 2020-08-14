@@ -3,7 +3,7 @@ import "./App.css";
 import { connect } from 'react-redux'
 import { getSmurfs } from '../store/actions/smurfActions'
 import SmurfContainer from './SmurfContainer'
-
+import Form from './Form'
 
 
 class App extends Component {
@@ -20,6 +20,8 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>Smurf</h1>
+        <Form />
         <SmurfContainer />
       </div>
     );
