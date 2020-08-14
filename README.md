@@ -60,7 +60,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [x] **LOOK** at your `smurfs` directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
 - [x] **Open** `src/index.js` to make sure that your app is ready to roll with the proper middleware.
 - [x] **cd** into `smurfs` and run `npm install` to retrieve the client side dependencies.
-- [] **RUN** `npm start` to fire up your React application. There ought to be a pretty little message awaiting you welcoming you to the app. `Follow` the prompting.
+- [x] **RUN** `npm start` to fire up your React application. There ought to be a pretty little message awaiting you welcoming you to the app. `Follow` the prompting.
 
 **LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interact with the **API**.
 
@@ -137,15 +137,15 @@ Example of object created in Smurf DB:
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a smurf profile page with using react-router and dynamic url params  
+* [x] Build a smurf profile page with using react-router and dynamic url params  
 * [ ] Using React Testing Library, test one or more of your components (not any component that fetches data though)
 
 ## Submission format
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete after receiving your pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete after receiving your pull-request
 
 
